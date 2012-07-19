@@ -30,10 +30,9 @@ func main() {
 
 // This is a func called magic
 func magic(a *integer) {
-	// Set *a to *a^5
-	*a = *a^5
+	// Set *a to *a ^ 5
+	*a = *a ^ 5
 
 	// This line is very important!
 	return
 }
-
